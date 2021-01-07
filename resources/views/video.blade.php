@@ -1,3 +1,3 @@
 <video controls preload="auto">
-    <source src="//ffmpeg.protone.media/hls/redfield.m3u8" type="application/x-mpegURL">
+    <source src="https://hls.protone.media/redfield.m3u8" type="application/x-mpegURL">
 </video>
