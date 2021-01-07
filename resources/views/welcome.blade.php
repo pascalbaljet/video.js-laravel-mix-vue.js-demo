@@ -15,9 +15,9 @@
     </head>
 
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0" id="app">
             <div class="max-w-6xl w-full mx-auto sm:px-6 lg:px-8">
-                @include('video')
+                <video-player></video-player>
             </div>
         </div>
     </body>
