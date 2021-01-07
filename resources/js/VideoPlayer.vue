@@ -1,6 +1,6 @@
 <template>
   <video-js ref="video-player" controls preload="auto" class="vjs-big-play-centered">
-    <source src="https://hls.protone.media/redfield.m3u8" type="application/x-mpegURL" />
+    <source :src="src" type="application/x-mpegURL" />
   </video-js>
 </template>
 
@@ -8,6 +8,8 @@
 import videojs from "video.js";
 
 export default {
+  props: ["src"],
+
   data() {
     return {
       player: null,

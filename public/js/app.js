@@ -1342,6 +1342,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  props: ["src"],
   data: function data() {
     return {
       player: null
@@ -60761,14 +60762,7 @@ var render = function() {
       staticClass: "vjs-big-play-centered",
       attrs: { controls: "", preload: "auto" }
     },
-    [
-      _c("source", {
-        attrs: {
-          src: "https://hls.protone.media/redfield.m3u8",
-          type: "application/x-mpegURL"
-        }
-      })
-    ]
+    [_c("source", { attrs: { src: _vm.src, type: "application/x-mpegURL" } })]
   )
 }
 var staticRenderFns = []
